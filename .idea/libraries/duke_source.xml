@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="duke_source">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/duke_source.jar!/" />
+    </SOURCES>
+  </library>
+</component>
