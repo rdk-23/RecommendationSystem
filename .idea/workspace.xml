@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6afbebe7-3724-4c09-92a7-7e96195a67f7" name="Changes" comment="">
+    <list default="true" id="6afbebe7-3724-4c09-92a7-7e96195a67f7" name="Changes" comment="MovieDatabase class was added.">
+      <change afterPath="$PROJECT_DIR$/src/AllFilters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TrueFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/YearAfterFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RecommendationSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RecommendationSystem.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MovieDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MovieDatabase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +61,18 @@
       <option name="presentableId" value="Default" />
       <updated>1676813962989</updated>
     </task>
+    <task id="LOCAL-00001" summary="MovieDatabase class was added.">
+      <created>1677883712699</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677883712699</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="MovieDatabase class was added." />
+    <option name="LAST_COMMIT_MESSAGE" value="MovieDatabase class was added." />
   </component>
 </project>
