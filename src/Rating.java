@@ -1,4 +1,4 @@
-public class Rating {
+public class Rating implements Comparable<Rating>{
     private String item;
     private double value;
 

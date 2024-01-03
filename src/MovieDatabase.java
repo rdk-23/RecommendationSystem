@@ -79,5 +79,16 @@ public class MovieDatabase {
         return ourMovies.size();
     }
 
+    public static ArrayList<String> filterBy(Filter f){
+        initialize();
+        ArrayList<String> list = new ArrayList<String>();
+        for(String id : ourMovies.keySet()){
+            if(f.satisfies(id)){
+                list.add(id);
+            }
+        }
+        return list;
+    }
+
 
 }

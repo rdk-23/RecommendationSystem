@@ -12,19 +12,15 @@ public class MovieRunnerAverage {
 
         input = sr.getAverageRatings(3);
         //System.out.println("Example input "+input);
+        output = sortByAverage(input);
 
-
-        while(!input.isEmpty()){
-            //Rating minElement = getSmallestAverage(input);
-            Rating minElement = input.get(0);
-            for(Rating r : input){
-                if(r.getValue() < minElement.getValue()){
-                    minElement = r;
-                }
+        int counter = 0;
+        for(Rating r : output){
+            if(r.getValue() != 0.0){
+                counter++;
             }
-            input.remove(minElement);
-            output.add(minElement);
         }
+        System.out.println("found "+counter+" movies");
         //System.out.println("Example output "+output);
         for(Rating r : output){
             if(r.getValue() != 0.0){
@@ -71,5 +67,23 @@ public class MovieRunnerAverage {
                 }
             }
         }
+    }
+    public Rating getSmallestAverage(ArrayList<Rating> rl){
+        Rating min = rl.get(0);
+        for (Rating r : rl){
+            if(r.getValue()< min.getValue()){
+                min = r;
+            }
+        }
+        return min;
+    }
+    public ArrayList<Rating> sortByAverage(ArrayList<Rating> in){
+        ArrayList<Rating> out = new ArrayList<Rating>();
+        while(!in.isEmpty()){
+            Rating minElement = getSmallestAverage(in);
+            in.remove(minElement);
+            out.add(minElement);
+        }
+        return out;
     }
 }
